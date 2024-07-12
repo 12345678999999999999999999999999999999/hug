@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+        <div class="currenPlayer">
+            <span>Сейчас ходить:<span id="currentPl">X</span></span>
+        </div>
+        <div class="gameResult">
+            <span>Результат игры:</span>
+            <span id="whoWins"></span>
+        </div>
+        <div class="gameHistory">
+            <div >История игр: 
+                <span id="roundHistory"></span>
+            </div>
+            <br>
+        </div>
+        <div id="area"></div>
+        <div class="stat">
+            <table>
+                <th colspan="2" >Статистика</th>
+                <tr>
+                    <td>Победа Х</td>
+                    <td id="sX">
+                        <span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Победа О</td>
+                    <td id="sO"><span>0</span></td> 
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td id="sD"><span>0</span></td> 
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./cript.js"></script>
+</body>
+</html>

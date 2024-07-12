@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    height: 100vh;
+}
+
+#area {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    font-size: 100;
+}
+
+
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    transition: background .1s;
+    cursor: pointer;
+    color: white;
+}
+
+.cell:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.stat {
+    margin-top: 11px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 3px solid rgb(0, 0, 0);
+    border-color: white;
+    padding: 6px;
+    text-align: center;
+} 
+
+.gameResult  {
+    width: 140px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.gameHistory {
+    width: 120px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+#currentPl{
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+}
+
+.currenPlayer{
+    width: 71px;
+    height: 41px;
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+    color: rgb(0, 100, 0);
+}
+.gameResult{
+    width: 71px;
+    height: 41px;
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+#whoWins{
+    width: 81px;
+    height: 41px;
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+.gameHistory{
+    width: 71px;
+    height: 41px;
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+    color: rgb(0, 255, 229);
+}
+#roundHistory{
+    width: 71px;
+    height: 41px;
+    border: 2px solid rgb(3, 20, 253);
+    align-items: center;
+    font-size: 18px;
+    color: rgb(0, 255, 229);
+}
